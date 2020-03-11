@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-08T13:20:20.238Z</updated>
+  <updated>2020-03-11T07:12:55.603Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cpp、point</title>
+    <link href="http://yoursite.com/2020/03/11/cpp%E3%80%81point/"/>
+    <id>http://yoursite.com/2020/03/11/cpp%E3%80%81point/</id>
+    <published>2020-03-11T07:12:02.000Z</published>
+    <updated>2020-03-11T07:12:55.603Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Class、Point、References"><a href="#Class、Point、References" class="headerlink" title="Class、Point、References"></a>Class、Point、References</h1><h3 id="码俩段代码先自己体会一下int-amp-与指针（不想好好写的原因是自己半夜码的原-md-不见了）"><a href="#码俩段代码先自己体会一下int-amp-与指针（不想好好写的原因是自己半夜码的原-md-不见了）" class="headerlink" title="码俩段代码先自己体会一下int&amp;与指针（不想好好写的原因是自己半夜码的原 md 不见了）"></a>码俩段代码先自己体会一下int&amp;与指针（不想好好写的原因是自己半夜码的原 md 不见了）</h3><p><code>void Incream(int* value){    (*value)++;}int main() {    int a = 5;    Incream(&amp;a);    std::cout &lt;&lt; a;    std::cin.get();}</code></p><p>这一段是指针用法</p><p><code>void Incream(int&amp; value){    value++;}int main() {    int a = 5;    Incream(a);    std::cout &lt;&lt; a;    std::cin.get();}</code></p><p>前面俩个都是通过内存把a的值给++成<strong>6</strong>的</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Class、Point、References&quot;&gt;&lt;a href=&quot;#Class、Point、References&quot; class=&quot;headerlink&quot; title=&quot;Class、Point、References&quot;&gt;&lt;/a&gt;Class、Point、Referenc
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>class in cpp</title>
+    <link href="http://yoursite.com/2020/03/11/class-in-cpp/"/>
+    <id>http://yoursite.com/2020/03/11/class-in-cpp/</id>
+    <published>2020-03-11T06:48:31.000Z</published>
+    <updated>2020-03-11T07:02:06.552Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Class、Point、References"><a href="#Class、Point、References" class="headerlink" title="Class、Point、References"></a>Class、Point、References</h1><h3 id="码俩段代码先自己体会一下int-amp-与指针（不想好好写的原因是自己半夜码的原-md-不见了）"><a href="#码俩段代码先自己体会一下int-amp-与指针（不想好好写的原因是自己半夜码的原-md-不见了）" class="headerlink" title="码俩段代码先自己体会一下int&amp;与指针（不想好好写的原因是自己半夜码的原 md 不见了）"></a>码俩段代码先自己体会一下int&amp;与指针（不想好好写的原因是自己半夜码的原 md 不见了）</h3><p><code>void Incream(int* value){    (*value)++;}int main() {    int a = 5;    Incream(&amp;a);    std::cout &lt;&lt; a;    std::cin.get();}</code></p><p>这一段是指针用法</p><p><code>void Incream(int&amp; value){    value++;}int main() {    int a = 5;    Incream(a);    std::cout &lt;&lt; a;    std::cin.get();}</code></p><p>前面俩个都是通过内存把a的值给++成6的</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Class、Point、References&quot;&gt;&lt;a href=&quot;#Class、Point、References&quot; class=&quot;headerlink&quot; title=&quot;Class、Point、References&quot;&gt;&lt;/a&gt;Class、Point、Referenc
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>HashTable</title>
